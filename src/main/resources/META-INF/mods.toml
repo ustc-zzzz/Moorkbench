@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[35,)"
+license="MIT"
+
+[[mods]]
+modId="moorkbench"
+authors="ustc-zzzz"
+displayName="Moorkbench"
+version="${file.jarVersion}"
+logoFile="moorkbench_logo.png"
+description="Moorkbench: Mooshroom with a workbench. Moo."
+
+[[dependencies.moorkbench]]
+modId="forge"
+versionRange="[35,)"
+ordering="NONE"
+mandatory=true
+side="BOTH"
+
+[[dependencies.moorkbench]]
+modId="minecraft"
+versionRange="[1.16.4,1.17)"
+ordering="NONE"
+mandatory=true
+side="BOTH"
